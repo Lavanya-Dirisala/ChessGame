@@ -1,0 +1,62 @@
+Chess Game -
+
+Initially Game starts with White Player 
+here white player enters the Source Position (Piece Position) which he wants to move
+and also enters Destination Position where he wants to move the Piece
+
+Next Game Switches to Black Player 
+again black player enters the Source Position (Piece Position) which he wants to move
+and also enters Destination Position where he wants to move the Piece
+
+In our game if white player checks Black King then White Player will Be announced as Winner
+when any error will encounter GameStatus will be Error 
+if WhiteWins -  GameStatus will be WhiteWin status 
+BlackWins -  GameStatus will be BlackWin Status
+
+Input 1:
+
+WHITE PLAYER
+Get start position X and Y axis
+1
+0
+Get destination position X and Y axis
+2
+0
+
+Output 1:
+
+0 0 | 0 1 | 0 2 | 0 3 | 0 4 | 0 5 | 0 6 | 0 7 | 
+Null|1 1 | 1 2 | 1 3 | 1 4 | 1 5 | 1 6 | 1 7 | 
+2 0 | Null|Null|Null|Null|Null|Null|Null|
+Null|Null|Null|Null|Null|Null|Null|Null|
+Null|Null|Null|Null|Null|Null|Null|Null|
+Null|Null|Null|Null|Null|Null|Null|Null|
+6 0 | 6 1 | 6 2 | 6 3 | 6 4 | 6 5 | 6 6 | 6 7 | 
+7 0 | 7 1 | 7 2 | 7 3 | 7 4 | 7 5 | 7 6 | 7 7 | 
+
+
+
+Input 2:
+
+BLACK PLAYER
+Get start position X and Y axis
+3
+0
+Get destination position X and Y axis
+4
+0
+
+
+Output 2:
+
+0 0 | 0 1 | 0 2 | 0 3 | 0 4 | 0 5 | 0 6 | 0 7 | 
+Null|1 1 | 1 2 | 1 3 | 1 4 | 1 5 | 1 6 | 1 7 | 
+2 0 | Null|Null|Null|Null|Null|Null|Null|
+Null|Null|Null|Null|Null|Null|Null|Null|
+Null|Null|Null|Null|Null|Null|Null|Null|
+Null|Null|Null|Null|Null|Null|Null|Null|
+6 0 | 6 1 | 6 2 | 6 3 | 6 4 | 6 5 | 6 6 | 6 7 | 
+7 0 | 7 1 | 7 2 | 7 3 | 7 4 | 7 5 | 7 6 | 7 7 | 
+Invalid Move made 
+--------ERROR---------
+ChessBoard resulted to ERROR
